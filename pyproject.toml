@@ -1,10 +1,9 @@
 [project]
-authors = [{name = "Jess Robertson", email = "jess.robertson@niwa.co.nz"}]
+authors = [{ name = "Jess Robertson", email = "jess.robertson@niwa.co.nz" }]
 description = "Add a short description here"
 name = "ssft-test"
 requires-python = ">= 3.11"
 version = "0.1.0"
-dependencies = [ "jax>=0.6.1,<0.7", "s2fft>=1.2.2,<2"]
 
 [build-system]
 build-backend = "hatchling.build"
@@ -12,9 +11,11 @@ requires = ["hatchling"]
 
 [tool.pixi.project]
 channels = ["conda-forge"]
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 
 [tool.pixi.pypi-dependencies]
+jax = "*"
+s2fft = "*"
 ssft_test = { path = ".", editable = true }
 
 [tool.pixi.tasks]
