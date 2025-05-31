@@ -15,7 +15,5 @@ platforms = ["osx-arm64", "linux-64"]
 
 [tool.pixi.pypi-dependencies]
 jax = "*"
-s2fft = "*"
+s2fft = { git = "https://github.com/astro-informatics/s2fft.git" }
 ssft_test = { path = ".", editable = true }
-
-[tool.pixi.tasks]
