@@ -17,3 +17,12 @@ platforms = ["osx-arm64", "linux-64"]
 jax = "*"
 s2fft = { git = "https://github.com/astro-informatics/s2fft.git" }
 ssft_test = { path = ".", editable = true }
+
+[tool.pixi.environments]
+dev = { features = ["dev"], solve-group = "default" }
+
+[tool.pixi.feature.dev.tasks]
+test = "pytest tests"
+
+[dependency-groups]
+dev = ["pytest"]

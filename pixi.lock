@@ -61,6 +61,75 @@ environments:
       - pypi: git+https://github.com/astro-informatics/s2fft.git@0de6f11056902d5d5b5e88cefe090cca50f2a61f
       - pypi: https://files.pythonhosted.org/packages/74/cd/1aef2184948728b4b6e21267d53b3339762c285a46a274ebb7863c9e4742/scipy-1.15.3-cp313-cp313-macosx_12_0_arm64.whl
       - pypi: .
+  dev:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    indexes:
+    - https://pypi.org/simple
+    packages:
+      linux-64:
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_gnu.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-h4bc722e_7.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.4.26-hbd8a1cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.43-h712a8e2_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.0-h5888daf_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libffi-3.4.6-h2dba641_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-15.1.0-h767d61c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-15.1.0-h69a702a_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.1.0-h767d61c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/liblzma-5.8.1-hb9d3cd8_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libmpdec-4.0.0-hb9d3cd8_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.50.0-hee588c1_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.38.1-h0b41bf4_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.0-h7b32b05_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.13.3-hf636f53_101_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.13-7_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_hd72426e_102.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
+      - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/86/bb/fdc6513a9aada13fd21e9860e2adee5f6eea2b4f0a145b219288875acb26/jax-0.5.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/86/c7/fc0755ebd999c7c66ac4203d99f958d5ffc0a34eb270f57932ca0213bb54/jaxlib-0.5.3-cp313-cp313-manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/be/26/adc36e3ea09603d9f6d114894e1c1b7b8e8a9ef6d0b031cc270c6624a37c/ml_dtypes-0.5.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/19/49/4df9123aafa7b539317bf6d342cb6d227e49f7a35b99c287a6109b13dd93/numpy-2.2.6-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/30/3d/64ad57c803f1fa1e963a7946b6e0fea4a70df53c1a7fed304586539c2bac/pytest-8.3.5-py3-none-any.whl
+      - pypi: git+https://github.com/astro-informatics/s2fft.git@0de6f11056902d5d5b5e88cefe090cca50f2a61f
+      - pypi: https://files.pythonhosted.org/packages/b5/09/c5b6734a50ad4882432b6bb7c02baf757f5b2f256041da5df242e2d7e6b6/scipy-1.15.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: .
+      osx-arm64:
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-h99b78c6_7.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.4.26-hbd8a1cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libexpat-2.7.0-h286801f_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libffi-3.4.6-h1da3d7d_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblzma-5.8.1-h39f12f2_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libmpdec-4.0.0-h5505292_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.50.0-h3f77e49_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.5.0-h81ee809_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.13.3-h81fe080_101_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.13-7_cp313.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/readline-8.2-h1d1bf99_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tk-8.6.13-h892fb3f_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
+      - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/86/bb/fdc6513a9aada13fd21e9860e2adee5f6eea2b4f0a145b219288875acb26/jax-0.5.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b4/d0/ed6007cd17dc0f37f950f89e785092d9f0541f3fa6021d029657955206b5/jaxlib-0.5.3-cp313-cp313-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/92/bb6a3d18e16fddd18ce6d5f480e1919b33338c70e18cba831c6ae59812ee/ml_dtypes-0.5.1-cp313-cp313-macosx_10_13_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/dc/9e/14520dc3dadf3c803473bd07e9b2bd1b69bc583cb2497b47000fed2fa92f/numpy-2.2.6-cp313-cp313-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/30/3d/64ad57c803f1fa1e963a7946b6e0fea4a70df53c1a7fed304586539c2bac/pytest-8.3.5-py3-none-any.whl
+      - pypi: git+https://github.com/astro-informatics/s2fft.git@0de6f11056902d5d5b5e88cefe090cca50f2a61f
+      - pypi: https://files.pythonhosted.org/packages/74/cd/1aef2184948728b4b6e21267d53b3339762c285a46a274ebb7863c9e4742/scipy-1.15.3-cp313-cp313-macosx_12_0_arm64.whl
+      - pypi: .
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
@@ -113,6 +182,11 @@ packages:
   purls: []
   size: 152283
   timestamp: 1745653616541
+- pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
+  name: iniconfig
+  version: 2.1.0
+  sha256: 9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760
+  requires_python: '>=3.8'
 - pypi: https://files.pythonhosted.org/packages/86/bb/fdc6513a9aada13fd21e9860e2adee5f6eea2b4f0a145b219288875acb26/jax-0.5.3-py3-none-any.whl
   name: jax
   version: 0.5.3
@@ -440,6 +514,42 @@ packages:
   version: 3.4.0
   sha256: 69bb92469f86a1565195ece4ac0323943e83477171b91d24c35afe028a90d7cd
   requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
+  name: packaging
+  version: '25.0'
+  sha256: 29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484
+  requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
+  name: pluggy
+  version: 1.6.0
+  sha256: e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746
+  requires_dist:
+  - pre-commit ; extra == 'dev'
+  - tox ; extra == 'dev'
+  - pytest ; extra == 'testing'
+  - pytest-benchmark ; extra == 'testing'
+  - coverage ; extra == 'testing'
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/30/3d/64ad57c803f1fa1e963a7946b6e0fea4a70df53c1a7fed304586539c2bac/pytest-8.3.5-py3-none-any.whl
+  name: pytest
+  version: 8.3.5
+  sha256: c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820
+  requires_dist:
+  - colorama ; sys_platform == 'win32'
+  - exceptiongroup>=1.0.0rc8 ; python_full_version < '3.11'
+  - iniconfig
+  - packaging
+  - pluggy>=1.5,<2
+  - tomli>=1 ; python_full_version < '3.11'
+  - argcomplete ; extra == 'dev'
+  - attrs>=19.2 ; extra == 'dev'
+  - hypothesis>=3.56 ; extra == 'dev'
+  - mock ; extra == 'dev'
+  - pygments>=2.7.2 ; extra == 'dev'
+  - requests ; extra == 'dev'
+  - setuptools ; extra == 'dev'
+  - xmlschema ; extra == 'dev'
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.13.3-hf636f53_101_cp313.conda
   build_number: 101
   sha256: eecb11ea60f8143deeb301eab2e04d04f7acb83659bb20fdfeacd431a5f31168
@@ -647,7 +757,7 @@ packages:
 - pypi: .
   name: ssft-test
   version: 0.1.0
-  sha256: f3f44556609aaf814864c41d012d71cfa19223f7aea9eb686138274eda5e2bbe
+  sha256: d4b0a20089c6ba84dc6bed146078bfee52cf419618d798735441fe9713852b2a
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_hd72426e_102.conda
